@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Web 2</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <!-- header  -->
+        <header>
+            <!-- top bar  -->
+            <div id="topbar" class="unipadding">
+                <!-- logo div  -->
+                <div id="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+
+                <!-- menu div  -->
+                <div id="menu">
+                    <ul>
+                        <li id="mobilecross"><a href="javascript:void(0)" onclick="closemenu()"><img
+                                    class="fab crossbtn" src="icons/cross.png" alt=""></a></li>
+                        <li id="home"><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- search div  -->
+                <div class="rightside">
+                    <div id="search">
+                        <input class="srch" type="search" placeholder="Search">
+                    </div>
+
+                    <div id="searchicon">
+                        <a href="#"><img src="icons/search.png" alt="searchicon"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mobilebar" onclick="openmenu()">
+                <img src="icons/menu1.png" alt="">
+            </div>
+        </header>
+
+        <!-- main centetn         -->
+        <main>
+            <!-- group 1 -->
+            <div id="group1" class="unipadding">
+                <div id="content1">
+                    <h1>First I wanted to be <br> a veterinarian</h1>
+                    <p>Lorem Ipsum available but the majority have <br>
+                        suffered alteration in some form, by injected <br>
+                        humour randomised words.
+                    </p>
+                    <div class="btnn">
+                        <button id="btncontact">Contact Us</button>
+                        <button id="btnservices">Our Services</button>
+                    </div>
+                </div>
+
+                <div id="img1">
+                    <img src="Images/dog image.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- group 2 -->
+            <div id="group2" class="unipadding">
+                <div id="content2">
+                    <h1>As a veterinarian and <br> lover of animals.</h1>
+                    <p>Lorem Ipsum available but the majoty <br>
+                        suffered alteration in some form, by <br>
+                        humour randomised words.
+                    </p>
+                    <button id="btnservices2">Our Service</button>
+                </div>
+
+                <div class="imgcon2">
+                    <div id="img2">
+                        <img id="gimg1" src="Images/group2img.jpg" alt="">
+                    </div>
+
+                    <img id="imgicon" src="icons/videoicon.jpg" alt="">
+
+                    <div id="colorspan"></div>
+                </div>
+            </div>
+
+            <!-- group 3 -->
+            <div id="group3" class="unipadding">
+                <div class="title">
+                    <h1>Title Here</h1>
+                    <p>
+                        Lorem Ipsum available but the majoty have <br> alteration in some form
+                    </p>
+                </div>
+
+                <div class="gcon3">
+                    <div class="section33">
+                        <div class="imgg3">
+                            <img src="Images/group3img11.jpg" alt="" id="border3">
+                        </div>
+                        <h3>Veterinarian</h3>
+                        <p>Lorem Ipsum available but <br> the majoty have suffered <br> alteration in some </p>
+                    </div>
+
+                    <div class="section33" id="margin3">
+                        <div class="imgg3">
+                            <img src="Images/group3img2.jpg" alt="">
+                        </div>
+
+                        <h3>Vaccination Care</h3>
+                        <p>Lorem Ipsum available but <br> the majoty have suffered <br> alteration in some </p>
+                    </div>
+
+                    <div class="section33" id="margin3">
+                        <div class="imgg3">
+                            <img src="Images/group3img3.jpg" alt="">
+                        </div>
+                        <h3>Dental Care</h3>
+                        <p>Lorem Ipsum available but <br> the majoty have suffered <br> alteration in some </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- group 4 -->
+            <div id="group4" class="unipadding">
+
+                <div class="imgcon4">
+                    <div id="img4">
+                        <img id="gimg4" src="Images/group2img.jpg" alt="">
+                    </div>
+
+                    <img id="imgicon4" src="icons/videoicon.jpg" alt="">
+
+                    <div id="colorspan4"></div>
+                </div>
+
+                <div id="content4">
+                    <h1>As a veterinarian and <br> lover of animals.</h1>
+                    <p>Lorem Ipsum available but the majoty <br>
+                        suffered alteration in some form, by <br>
+                        humour randomised words.
+                    </p>
+                    <button id="btnservices4">Our Service</button>
+                </div>
+
+
+            </div>
+
+            <!-- group 5 -->
+            <div id="group5" class="unipadding">
+                <div class="title">
+                    <h1>Title Here</h1>
+                    <p>
+                        Lorem Ipsum available but the majoty have <br> alteration in some form
+                    </p>
+                </div>
+
+                <div class="gcon3">
+                    <div class="section335">
+                        <div class="imgg3">
+                            <img src="Images/group5img1.jpg" alt="" class="border5">
+                        </div>
+                        <h3><del>$50</del> $30</h3>
+                        <button class="btncontact5">Buy Now</button>
+
+                    </div>
+
+                    <div class="section335" id="margin5">
+                        <div class="imgg3">
+                            <img src="Images/group5img2.jpg" alt="" class="border5">
+                        </div>
+                        <h3><del>$40</del> $25</h3>
+                        <button class="btncontact5">Buy Now</button>
+
+                    </div>
+
+                    <div class="section335" id="margin5">
+                        <div class="imgg3">
+                            <img src="Images/group5img1.jpg" alt="" class="border5">
+                        </div>
+                        <h3><del>$45</del> $20</h3>
+                        <button class="btncontact5">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- group 6 -->
+            <div id="group6" class="unipadding">
+                <div class="title">
+                    <h1>The Vetcare team</h1>
+                    <p>
+                        Lorem Ipsum available but the majoty have <br> alteration in some form
+                    </p>
+                </div>
+
+                <div class="gcon3">
+                    <div class="section336">
+                        <div class="imgg3">
+                            <img src="Images/group6img1.jpg" alt="" class="border6">
+                        </div>
+                        <h3>Jennifer Mullen</h3>
+                        <p>Veterinary</p>
+                        <div id="socialapp">
+                            <a href="#" class="paddingicon"><img id="fab" src="icons/instagram.png"
+                                    alt="instagramicon"></a>
+                            <a href="#"><img id="fab" src="icons/facebook.png" alt="facebookicon"></a>
+                            <a href="#"><img id="fab" src="icons/twitter.png" alt="twittericon"></a>
+                            <a href="#"><img id="fab" src="icons/whatsapp.png" alt="whatsappicon"></a>
+                        </div>
+                    </div>
+
+                    <div class="section336" id="margin6">
+                        <div class="imgg3">
+                            <img src="Images/group6img2.jpg" alt="" class="border6">
+                        </div>
+                        <h3>Shareen Colorins</h3>
+                        <p>Administration</p>
+                        <div id="socialapp">
+                            <a href="#" class="paddingicon"><img id="fab" src="icons/instagram.png"
+                                    alt="instagramicon"></a>
+                            <a href="#"><img id="fab" src="icons/facebook.png" alt="facebookicon"></a>
+                            <a href="#"><img id="fab" src="icons/twitter.png" alt="twittericon"></a>
+                            <a href="#"><img id="fab" src="icons/whatsapp.png" alt="whatsappicon"></a>
+                        </div>
+                    </div>
+
+                    <div class="section336" id="margin6">
+                        <div class="imgg3">
+                            <img src="Images/group6img3.jpg" alt="" class="border6">
+                        </div>
+                        <h3>Jennifer Mullen</h3>
+                        <p>Veterinary</p>
+                        <div id="socialapp">
+                            <a href="#" class="paddingicon"><img id="fab" src="icons/instagram.png"
+                                    alt="instagramicon"></a>
+                            <a href="#"><img id="fab" src="icons/facebook.png" alt="facebookicon"></a>
+                            <a href="#"><img id="fab" src="icons/twitter.png" alt="twittericon"></a>
+                            <a href="#"><img id="fab" src="icons/whatsapp.png" alt="whatsappicon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- group 7 -->
+            <div id="group7" class="unipadding">
+
+                <div class="section337">
+                    <div class="imgg7">
+                        <img src="Icons/group7icon1.png" alt="" id="paddingicon71">
+                    </div>
+                    <p>+34793</p>
+                    <h3>Happy Clients</h3>
+                </div>
+
+                <div class="section337" id="margin7">
+                    <div class="imgg7">
+                        <img src="Icons/group7icon.png" alt="" id="paddingicon72">
+                    </div>
+
+                    <p>+45382</p>
+                    <h3>Department</h3>
+                </div>
+
+                <div class="section337" id="margin7">
+                    <div class="imgg7">
+                        <img src="Icons/injection.png" alt="" id="paddingicon73">
+                    </div>
+
+                    <p>+54762</p>
+                    <h3>Vaccinations</h3>
+                </div>
+            </div>
+
+            <!-- group 8 -->
+            <div id="group8" class="unipadding">
+
+                <div class="title">
+                    <h1>Recent Posts</h1>
+                    <p>
+                        Lorem Ipsum available but the majoty have <br> alteration in some form
+                    </p>
+                </div>
+
+                <div class="gcon3">
+                    <div class="section338">
+                        <div class="imgg3">
+                            <img src="Images//group8mg1.jpg" alt="">
+                        </div>
+                        <div class="g8indiv">
+                            <h3 class="unipadding1">As a veterinarian and <br>
+                                lover of animals</h3>
+                            <p class="unipadding1" id="g8p1">FEBRUARY 09, 2020</p>
+                            <p class="unipadding1" id="g8p2">Lorem Ipsum available, but the majo <br>
+                                rity have suffered alteration in some <br>
+                                words which look.
+                            </p>
+                            <p class="unipadding1" id="g8p3">Read More+</p>
+                        </div>
+                    </div>
+
+                    <div class="section338" id="margin8">
+                        <div class="imgg3">
+                            <img src="Images//group8mg2.jpg" alt="">
+                        </div>
+                        <div class="g8indiv">
+                            <h3 class="unipadding1">As a veterinarian and <br>
+                                lover of animals</h3>
+                            <p class="unipadding1" id="g8p1">FEBRUARY 09, 2020</p>
+                            <p class="unipadding1" id="g8p2">Lorem Ipsum available, but the majo <br>
+                                rity have suffered alteration in some <br>
+                                words which look.
+                            </p>
+                            <p class="unipadding1" id="g8p3">Read More+</p>
+                        </div>
+                    </div>
+
+                    <div class="section338" id="margin8">
+                        <div class="imgg3">
+                            <img src="Images//group8mg3.jpg" alt="">
+                        </div>
+                        <div class="g8indiv">
+                            <h3 class="unipadding1">As a veterinarian and <br>
+                                lover of animals</h3>
+                            <p class="unipadding1" id="g8p1">FEBRUARY 09, 2020</p>
+                            <p class="unipadding1" id="g8p2">Lorem Ipsum available, but the majo <br>
+                                rity have suffered alteration in some <br>
+                                words which look.
+                            </p>
+                            <p class="unipadding1" id="g8p3">Read More+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="footer" class="unipadding">
+
+                <div class="section33f">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Brand Guidlines</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="section33f" id="marginf">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">How to Order</a></li>
+                        <li><a href="#">Our Product</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Promo</a></li>
+                        <li><a href="#">Payment Method</a></li>
+                    </ul>
+                </div>
+
+                <div class="section33f" id="marginf">
+                    <h3 id="h33">Title Here</h3>
+                    <p>Lorem Ipsum available, but the majority</p>
+
+                    <div class="bigg">
+                        <div id="coloring1"></div>
+                        <div id="coloring2"></div>
+                    </div>
+
+                    <div id="socialappf">
+                        <a href="#"><img id="fabf" src="icons/whatsapp.png" alt="whatsappicon"></a>
+                        <a href="#"><img id="fabf" src="icons/twitter.png" alt="twittericon"></a>
+                        <a href="#"><img id="fabf" src="icons/facebook.png" alt="facebookicon"></a>
+                        <a href="#"><img id="fabf" src="icons/instagram.png" alt="instagramicon"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- link script  -->
+    <script src="Javascript/java.js"></script>
+</body>
+
+</html>
