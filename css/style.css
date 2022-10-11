@@ -857,6 +857,11 @@ body {
         padding-bottom: 5px;
         border-bottom: 1px solid gray;
     }
+    
+    #menu ul li a {
+    font-size: 20px;
+}
+
 
     #mobilecross{
         display: block !important;
