@@ -1032,11 +1032,11 @@ body {
         font-size: 15px;    
     }
 
-    #group8 .title h1, #group6 .title h1{
+    #group8 .title h1, #group6 .title h1, #group3 .title h1, #group4 .title h1{
         font-size: 35px;
     }
 
-    #group8 .title p, #group6 .title p{
+    #group8 .title p, #group6 .title p, #group3 .title p, #group4 .title p{
         font-size: 16px;
     }
 
